@@ -1,0 +1,28 @@
+
+.CardOverDesc{
+ display: flex;
+ flex-direction: column;
+ width: 100%;
+ filter: opacity(80%);
+ padding: 10px 6%!important;
+ transform: translateY(100%);
+ transition: all 0.2s ease-in;
+}
+.MainFoodCard{
+    cursor: pointer;
+   
+}
+.MainFoodCard:hover .CardOverDesc{
+    transform: translateY(0%);
+}
+.CardFooter button{
+    background: none;
+    box-shadow:none ;
+    /* border: 1px solid white; */
+    border-radius: 25px;
+}
+.CardFooter{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

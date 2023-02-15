@@ -1,0 +1,25 @@
+.FoodGridTitle{
+    display: inline;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+}
+.underLine{
+    width: 50px;
+    height: 2px;
+    background: #342679;
+    border-radius: 12px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.Dish{
+    flex:1;
+}
+
+.TopChefsMemo{
+    background-size: cover;
+    background-image: url("../../Components/asset/ChefBackground.png");
+}
+.FoodGuide{
+    background-size: cover;
+    background-image: url("../../Components/asset/foodguide.png");
+}

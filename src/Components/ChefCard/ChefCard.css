@@ -1,0 +1,28 @@
+.ChefCard img{
+    border-radius: 50%;
+
+} 
+.FoodCard img{
+    border-radius: 50%;
+
+} 
+.ChefCard{
+    width: 300px;
+    border-radius: 12px;
+    padding: 20px;
+    color: white;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+}
+.FoodCard{
+    width: 300px;
+    border-radius: 12px;
+    padding: 20px;
+    color: black;
+    transition: all 100ms ease-in-out;
+    cursor: pointer;
+}
+.ChefCard:hover{
+    background: white;
+    color: black;
+}
